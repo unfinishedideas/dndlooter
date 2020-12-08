@@ -1,4 +1,5 @@
 import * as lootTables from '../tables/lootTable';
+import inRange from './getLoot';
 
 export default function determineMagicItems(timesToRollOnTable, tableLetter)
 {

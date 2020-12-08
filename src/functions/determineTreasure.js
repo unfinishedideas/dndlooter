@@ -19,7 +19,7 @@ export default function determineTreasure(number, value, type)
         } else if (value === 5000) {
             table = lootTables.gems["5000gp"];
         } else {
-            throw Error("determineTreasure: bad value for art_objects")
+            throw Error("determineTreasure: bad value for gems")
         }
     } else if (type === "art_objects") {
         if (value === 25) {

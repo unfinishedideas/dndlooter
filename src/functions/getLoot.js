@@ -11,7 +11,6 @@ export default function getLoot(lootInput)
     let diceToRoll;
     let totals = {};
 
-
     // I apologize in advance for this terribleness - these walls of conditionals make my eyes bleed But I have yet to think of a better way to do it. -P
     // <------------------------------------------------------------------------ Individual Loot ------------------------------------------------------------------------->
     if (lootInput.type === 'individual') {
@@ -177,7 +176,7 @@ export default function getLoot(lootInput)
     return totals;
 }
 
-const inRange = (testNumber, lowNumber, highNumber) => 
+export function inRange(testNumber, lowNumber, highNumber) 
 {
     if (testNumber >= lowNumber && testNumber <= highNumber) {
         return true;
