@@ -148,7 +148,7 @@ const determineGems = (number, value) =>
     } else if (value === 5000) {
         table = lootTables.gems["5000gp"];
     } else {
-        return {list: "something went wrong with determineGems", totalNumber: 0, totalValue: 0};
+        return {list: "bad value input: determineGems", totalNumber: 0, totalValue: 0};
     }
 
     for (let i = 0; i < number; i++) {
@@ -159,13 +159,39 @@ const determineGems = (number, value) =>
             result.list[currentGem] = 1
         }
     }
-    console.log(result);
+
     return result;
 }
 
 const determineArtObjects = (number, value) =>
 {
-    return 'hi 2';
+    let result = {list: {}, totalNumber: number, totalValue: number*value};
+    let table;
+    
+    if (value === 25) {
+        table = lootTables.art_objects["25gp"];
+    } else if (value === 250) {
+        table = lootTables.art_objects["250gp"];
+    } else if (value === 750) {
+        table = lootTables.art_objects["750gp"];
+    } else if (value === 2500) {
+        table = lootTables.art_objects["2500gp"];
+    } else if (value === 7500) {
+        table = lootTables.art_objects["7500gp"];
+    } else {
+        return {list: "bad value input: determineArtObjects", totalNumber: 0, totalValue: 0};
+    }
+
+    for (let i = 0; i < number; i++) {
+        const currentArtObject = table[Math.floor(Math.random()*table.length)];
+        if (`${currentArtObject}` in result.list) {
+            result.list[currentArtObject] += 1
+        } else {
+            result.list[currentArtObject] = 1
+        }
+    }
+
+    return result;
 }
 
 const determineMagicItems = (order) => 
