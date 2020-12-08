@@ -1,385 +1,2478 @@
 {
     "items": {
         "A": {
-            "1-50": {"name": "Potion of healing", "page": 0, "description": ""},
-            "51-60": {"name": "Spell scroll (cantrip)", "page": 0, "description": ""},
-            "61-70": {"name": "Potion of climbing", "page": 0, "description": ""},
-            "71-90": {"name": "Spell scroll (1st level)", "page": 0, "description": ""},
-            "91-94": {"name": "Spell scroll (2nd level)", "page": 0, "description": ""},
-            "95-98": {"name": "Potion of greater healing", "page": 0, "description": ""},
-            "99": {"name": "Bag of holding", "page": 0, "description": ""},
-            "100": {"name": "Driftglobe", "page": 0, "description": ""}
+            "1-50": {
+                "name": "Potion of healing", 
+                "page": 0, 
+                "rarity": "",
+                "category": "", 
+                "description": ""
+            },
+            "51-60": {
+                "name": "Spell scroll (cantrip)", 
+                "page": 0, "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "61-70": {
+                "name": "Potion of climbing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71-90": {
+                "name": "Spell scroll (1st level)", 
+                "page": 0, "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91-94": {
+                "name": "Spell scroll (2nd level)",
+                 "page": 0, 
+                 "rarity": "", 
+                 "category": "", 
+                 "description": ""
+                },
+            "95-98": {
+                "name": "Potion of greater healing",
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "Bag of holding", 
+                "page": 0, 
+                "rarity": "",
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "Driftglobe", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "B": {
-            "1-15": {"name": "Potion of greater healing", "page": 0, "description": ""},
-            "16-22": {"name": "Potion of fire breath", "page": 0, "description": ""},
-            "23-29": {"name": "Potion of resistance", "page": 0, "description": ""},
-            "30-34": {"name": "Ammunition +1", "page": 0, "description": ""},
-            "35-39": {"name": "Potion of animal friendship", "page": 0, "description": ""},
-            "40-44": {"name": "Potion of hill giant strength", "page": 0, "description": ""},
-            "45-49": {"name": "Potion of growth", "page": 0, "description": ""},
-            "50-54": {"name": "Potion of water breathing", "page": 0, "description": ""},
-            "55-59": {"name": "Spell scroll (2nd level)", "page": 0, "description": ""},
-            "60-64": {"name": "Spell scroll (3rd level)", "page": 0, "description": ""},
-            "65-67": {"name": "Bag of holding", "page": 0, "description": ""},
-            "68-70": {"name": "Keogthom's ointment", "page": 0, "description": ""},
-            "71-73": {"name": "Oil of slipperiness", "page": 0, "description": ""},
-            "74-75": {"name": "Dust of disappearance", "page": 0, "description": ""},
-            "76-77": {"name": "Dust of dryness", "page": 0, "description": ""},
-            "78-79": {"name": "Dust of sneezing and choking", "page": 0, "description": ""},
-            "80-81": {"name": "Elemental gem", "page": 0, "description": ""},
-            "82-83": {"name": "Philter of love", "page": 0, "description": ""},
-            "84": {"name": "Alchemy Jug", "page": 0, "description": ""},
-            "85": {"name": "Cap of water breathing", "page": 0, "description": ""},
-            "86": {"name": "Cloak of the manta ray", "page": 0, "description": ""},
-            "87": {"name": "Driftglobe", "page": 0, "description": ""},
-            "88": {"name": "Goggles of night", "page": 0, "description": ""},
-            "89": {"name": "Helm of comprehending languages", "page": 0, "description": ""},
-            "90": {"name": "Immovable rod", "page": 0, "description": ""},
-            "91": {"name": "Latern of revealing", "page": 0, "description": ""},
-            "92": {"name": "Mariner's armor", "page": 0, "description": ""},
-            "93": {"name": "Mithral armor", "page": 0, "description": ""},
-            "94": {"name": "Potion of poison", "page": 0, "description": ""},
-            "95": {"name": "Ring of swimming", "page": 0, "description": ""},
-            "96": {"name": "Robe of useful items", "page": 0, "description": ""},
-            "97": {"name": "Rope of climbing", "page": 0, "description": ""},
-            "98": {"name": "Saddle of the cavalier", "page": 0, "description": ""},
-            "99": {"name": "Wand of magic detection", "page": 0, "description": ""},
-            "100": {"name": "Wand of secrets", "page": 0, "description": ""}
+            "1-15": {
+                "name": "Potion of greater healing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "16-22": {
+                "name": "Potion of fire breath", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "23-29": {
+                "name": "Potion of resistance", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "30-34": {
+                "name": "Ammunition +1", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "35-39": {
+                "name": "Potion of animal friendship", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "40-44": {
+                "name": "Potion of hill giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "45-49": {
+                "name": "Potion of growth", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "50-54": {
+                "name": "Potion of water breathing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "55-59": {
+                "name": "Spell scroll (2nd level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "60-64": {
+                "name": "Spell scroll (3rd level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "65-67": {
+                "name": "Bag of holding", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68-70": {
+                "name": "Keogthom's ointment", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71-73": {
+                "name": "Oil of slipperiness", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "74-75": {
+                "name": "Dust of disappearance", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76-77": {
+                "name": "Dust of dryness", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78-79": {
+                "name": "Dust of sneezing and choking", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "80-81": {
+                "name": "Elemental gem", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82-83": {
+                "name": "Philter of love", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "84": {
+                "name": "Alchemy Jug", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85": {
+                "name": "Cap of water breathing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86": {
+                "name": "Cloak of the manta ray", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "87": {
+                "name": "Driftglobe", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88": {
+                "name": "Goggles of night", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "89": {
+                "name": "Helm of comprehending languages", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90": {
+                "name": "Immovable rod", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91": {
+                "name": "Latern of revealing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {
+                "name": "Mariner's armor", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {
+                "name": "Mithral armor", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {
+                "name": "Potion of poison", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {
+                "name": "Ring of swimming", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {
+                "name": "Robe of useful items", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {
+                "name": "Rope of climbing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {
+                "name": "Saddle of the cavalier", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "Wand of magic detection", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "Wand of secrets", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "C": {
-            "1-15": {"name": "Potion of superior healing", "page": 0, "description": ""},
-            "16-22": {"name": "Spell scroll (4th level)", "page": 0, "description": ""},
-            "23-27": {"name": "Ammunition +2", "page": 0, "description": ""},
-            "28-32": {"name": "Potion of clairvoyance", "page": 0, "description": ""},
-            "33-37": {"name": "Potion of diminution", "page": 0, "description": ""},
-            "38-42": {"name": "Potion of gaseous form", "page": 0, "description": ""},
-            "43-47": {"name": "Potion of frost giant strength", "page": 0, "description": ""},
-            "48-52": {"name": "Potion of stone giant strength", "page": 0, "description": ""},
-            "53-57": {"name": "Potion of heroism", "page": 0, "description": ""},
-            "58-62": {"name": "Potion of invulnerability", "page": 0, "description": ""},
-            "53-67": {"name": "Potion of mind reading", "page": 0, "description": ""},
-            "68-72": {"name": "Spell scroll (5th level)", "page": 0, "description": ""},
-            "73-75": {"name": "Elixir of health", "page": 0, "description": ""},
-            "76-78": {"name": "Oil of etherealness", "page": 0, "description": ""},
-            "79-81": {"name": "Potion of fire giant strength", "page": 0, "description": ""},
-            "82-84": {"name": "Quaal's feather token", "page": 0, "description": ""},
-            "85-87": {"name": "Scroll of protection", "page": 0, "description": ""},
-            "88-89": {"name": "Bag of beans", "page": 0, "description": ""},
-            "90-91": {"name": "Bead of force", "page": 0, "description": ""},
-            "92": {"name": "Chime of opening", "page": 0, "description": ""},
-            "93": {"name": "Decanter of endless water", "page": 0, "description": ""},
-            "94": {"name": "Eyes of minute seeing", "page": 0, "description": ""},
-            "95": {"name": "Folding boat", "page": 0, "description": ""},
-            "96": {"name": "Heward's handy haversack", "page": 0, "description": ""},
-            "97": {"name": "Horsehoes of speed", "page": 0, "description": ""},
-            "98": {"name": "Necklace of fireballs", "page": 0, "description": ""},
-            "99": {"name": "Preiapt of health", "page": 0, "description": ""},
-            "100": {"name": "Sending stones", "page": 0, "description": ""}
+            "1-15": {
+                "name": "Potion of superior healing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "16-22": {
+                "name": "Spell scroll (4th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "23-27": {
+                "name": "Ammunition +2", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "28-32": {
+                "name": "Potion of clairvoyance", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "33-37": {
+                "name": "Potion of diminution", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "38-42": {
+                "name": "Potion of gaseous form", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "43-47": {
+                "name": "Potion of frost giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "48-52": {
+                "name": "Potion of stone giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "53-57": {
+                "name": "Potion of heroism", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58-62": {
+                "name": "Potion of invulnerability", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "53-67": {
+                "name": "Potion of mind reading", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68-72": {
+                "name": "Spell scroll (5th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "73-75": {
+                "name": "Elixir of health", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76-78": {
+                "name": "Oil of etherealness", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "79-81": {
+                "name": "Potion of fire giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82-84": {
+                "name": "Quaal's feather token", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85-87": {
+                "name": "Scroll of protection", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88-89": {
+                "name": "Bag of beans", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90-91": {
+                "name": "Bead of force", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {
+                "name": "Chime of opening", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {
+                "name": "Decanter of endless water", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {
+                "name": "Eyes of minute seeing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {
+                "name": "Folding boat", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {
+                "name": "Heward's handy haversack", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {
+                "name": "Horsehoes of speed", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {
+                "name": "Necklace of fireballs", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "Preiapt of health", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "Sending stones", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "D": {
-            "1-20": {"name": "Potion of supreme healing", "page": 0, "description": ""},
-            "21-30": {"name": "Potion of invisibility", "page": 0, "description": ""},
-            "31-40": {"name": "Potion of speed", "page": 0, "description": ""},
-            "41-50": {"name": "Spell scroll (6th level)", "page": 0, "description": ""},
-            "51-57": {"name": "Spell scroll (7th level)", "page": 0, "description": ""},
-            "58-62": {"name": "Ammunition +3", "page": 0, "description": ""},
-            "63-67": {"name": "Oil of sharpness", "page": 0, "description": ""},
-            "68-72": {"name": "Potion of flying", "page": 0, "description": ""},
-            "73-77": {"name": "Potion of cloud giant strength", "page": 0, "description": ""},
-            "78-82": {"name": "Potion of longevity", "page": 0, "description": ""},
-            "83-87": {"name": "Potion of vitality", "page": 0, "description": ""},
-            "88-92": {"name": "Spell scroll (8th level)", "page": 0, "description": ""},
-            "93-95": {"name": "Horseshoes of a zephyr", "page": 0, "description": ""},
-            "96-98": {"name": "Nolzur's marvelous pigments", "page": 0, "description": ""},
-            "99": {"name": "Bag of devouring", "page": 0, "description": ""},
-            "100": {"name": "Portable hole", "page": 0, "description": ""}
+            "1-20": {"name": "Potion of supreme healing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "21-30": {"name": "Potion of invisibility", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "31-40": {"name": "Potion of speed", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "41-50": {"name": "Spell scroll (6th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "51-57": {"name": "Spell scroll (7th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58-62": {"name": "Ammunition +3", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "63-67": {"name": "Oil of sharpness", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68-72": {"name": "Potion of flying", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "73-77": {"name": "Potion of cloud giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78-82": {"name": "Potion of longevity", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "83-87": {"name": "Potion of vitality", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88-92": {"name": "Spell scroll (8th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93-95": {"name": "Horseshoes of a zephyr", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96-98": {"name": "Nolzur's marvelous pigments", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {"name": "Bag of devouring", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {"name": "Portable hole", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "E": {
-            "1-30": {"name": "Spell scroll (8th level)", "page": 0, "description": ""},
-            "31-55": {"name": "Potion of storm giant strength", "page": 0, "description": ""},
-            "56-70": {"name": "Potion of supreme healing", "page": 0, "description": ""},
-            "71-85": {"name": "Spell scroll (9th level)", "page": 0, "description": ""},
-            "86-93": {"name": "Universal solvent", "page": 0, "description": ""},
-            "94-98": {"name": "Arrow of slaying", "page": 0, "description": ""},
-            "99-100": {"name": "Sovereign glue", "page": 0, "description": ""}
+            "1-30": {"name": "Spell scroll (8th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "31-55": {"name": "Potion of storm giant strength", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "56-70": {"name": "Potion of supreme healing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71-85": {"name": "Spell scroll (9th level)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86-93": {"name": "Universal solvent", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94-98": {"name": "Arrow of slaying", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99-100": {"name": "Sovereign glue", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "F": {
-            "1-15": {"name": "", "page": 0, "description": ""},
-            "16-18": {"name": "", "page": 0, "description": ""},
-            "19-21": {"name": "", "page": 0, "description": ""},
-            "22-23": {"name": "", "page": 0, "description": ""},
-            "24-25": {"name": "", "page": 0, "description": ""},
-            "26-27": {"name": "", "page": 0, "description": ""},
-            "28-29": {"name": "", "page": 0, "description": ""},
-            "30-31": {"name": "", "page": 0, "description": ""},
-            "32-33": {"name": "", "page": 0, "description": ""},
-            "34-35": {"name": "", "page": 0, "description": ""},
-            "36-37": {"name": "", "page": 0, "description": ""},
-            "38-39": {"name": "", "page": 0, "description": ""},
-            "40-41": {"name": "", "page": 0, "description": ""},
-            "42-43": {"name": "", "page": 0, "description": ""},
-            "44-45": {"name": "", "page": 0, "description": ""},
-            "46-47": {"name": "", "page": 0, "description": ""},
-            "48-49": {"name": "", "page": 0, "description": ""},
-            "50-51": {"name": "", "page": 0, "description": ""},
-            "52-53": {"name": "", "page": 0, "description": ""},
-            "54-55": {"name": "", "page": 0, "description": ""},
-            "56-57": {"name": "", "page": 0, "description": ""},
-            "58-59": {"name": "", "page": 0, "description": ""},
-            "60-61": {"name": "", "page": 0, "description": ""},
-            "62-63": {"name": "", "page": 0, "description": ""},
-            "64-65": {"name": "", "page": 0, "description": ""},
-            "66": {"name": "", "page": 0, "description": ""},
-            "67": {"name": "", "page": 0, "description": ""},
-            "68": {"name": "", "page": 0, "description": ""},
-            "69": {"name": "", "page": 0, "description": ""},
-            "70": {"name": "", "page": 0, "description": ""},
-            "71": {"name": "", "page": 0, "description": ""},
-            "72": {"name": "", "page": 0, "description": ""},
-            "73": {"name": "", "page": 0, "description": ""},
-            "74": {"name": "", "page": 0, "description": ""},
-            "75": {"name": "", "page": 0, "description": ""},
-            "76": {"name": "", "page": 0, "description": ""},
-            "77": {"name": "", "page": 0, "description": ""},
-            "78": {"name": "", "page": 0, "description": ""},
-            "79": {"name": "", "page": 0, "description": ""},
-            "80": {"name": "", "page": 0, "description": ""},
-            "81": {"name": "", "page": 0, "description": ""},
-            "82": {"name": "", "page": 0, "description": ""},
-            "83": {"name": "", "page": 0, "description": ""},
-            "84": {"name": "", "page": 0, "description": ""},
-            "85": {"name": "", "page": 0, "description": ""},
-            "86": {"name": "", "page": 0, "description": ""},
-            "87": {"name": "", "page": 0, "description": ""},
-            "88": {"name": "", "page": 0, "description": ""},
-            "89": {"name": "", "page": 0, "description": ""},
-            "90": {"name": "", "page": 0, "description": ""},
-            "91": {"name": "", "page": 0, "description": ""},
-            "92": {"name": "", "page": 0, "description": ""},
-            "93": {"name": "", "page": 0, "description": ""},
-            "94": {"name": "", "page": 0, "description": ""},
-            "95": {"name": "", "page": 0, "description": ""},
-            "96": {"name": "", "page": 0, "description": ""},
-            "97": {"name": "", "page": 0, "description": ""},
-            "98": {"name": "", "page": 0, "description": ""},
-            "99": {"name": "", "page": 0, "description": ""},
-            "100": {"name": "", "page": 0, "description": ""}
+            "1-15": {"name": "Weapon, +1", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "16-18": {"name": "Shield, +1", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "19-21": {"name": "Sentinel shield", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "22-23": {"name": "Amulet of proof against detection and location", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "24-25": {"name": "Boots of elvenkind", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "26-27": {"name": "Boots of striding and springing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "28-29": {"name": "Bracers of archery", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "30-31": {"name": "Brooch of shielding", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "32-33": {"name": "Broom of flying", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "34-35": {"name": "Cloak of elvenkind", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "36-37": {"name": "Cloak of protection", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "38-39": {"name": "Gaunlets of ogre power", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "40-41": {"name": "Hat of disguise", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "42-43": {"name": "Javelin of lightning", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "44-45": {"name": "Pearl of power", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "46-47": {"name": "Rod of the pact keeper, +1", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "48-49": {"name": "Slippers of spider climbing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "50-51": {"name": "Staff of the adder", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "52-53": {"name": "Staff of the python", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "54-55": {"name": "Sword of vengeance", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "56-57": {"name": "Trident of fish command", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58-59": {"name": "Wand of magic missiles", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "60-61": {"name": "Wand of the war mage, +1", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "62-63": {"name": "Wand of web", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "64-65": {"name": "Weapon of warning", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "66": {"name": "Adamantine armor (chain mail)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "67": {"name": "Adamantine armor (chain shirt)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68": {"name": "Adamantine armor (scale mail)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "69": {"name": "Bag of tricks (gray)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "70": {"name": "Bag of tricks (rust)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71": {"name": "Bag of tricks (tan)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "72": {"name": "Boots of the winterlands", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "73": {"name": "Circlet of blasting", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "74": {"name": "Deck of illusions", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "75": {"name": "Eversmoking bottle", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76": {"name": "Eyes of charming", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "77": {"name": "Eyes of the eagle", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78": {"name": "Figurine of wonderous power (silver raven)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "79": {"name": "Gem of brightness", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "80": {"name": "Gloves of missile snaring", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "81": {"name": "Gloves of swimming and climbing", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82": {"name": "Gloves of thievery", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "83": {"name": "Headband of intellect", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "84": {"name": "Helm of telepathy", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85": {"name": "Instrumnent of the bards (Doss lute)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86": {"name": "Instrumnent of the bards (Fochlucan bandore)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "87": {"name": "Instrumnent of the bards (Mac-Fuimidh cittern)", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88": {"name": "Medallion of thoughts", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "89": {"name": "Necklace of adapation", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90": {"name": "Periapt of wound closure", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91": {"name": "Pipes of haunting", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {"name": "Pipes of the sewers", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {"name": "Ring of jumping", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {"name": "Ring of mind shielding", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {"name": "Ring of warmth", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {"name": "Ring of water walking", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {"name": "Quiver of Ehlonna", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {"name": "Stone of good luck", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {"name": "Wind fan", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {"name": "Winged boots", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "G": {
-            "1-11": {"name": "", "page": 0, "description": ""},
-            "12-14": {"name": "", "page": 0, "description": ""},
-            "15": {"name": "", "page": 0, "description": ""},
-            "16": {"name": "", "page": 0, "description": ""},
-            "17": {"name": "", "page": 0, "description": ""},
-            "18": {"name": "", "page": 0, "description": ""},
-            "19": {"name": "", "page": 0, "description": ""},
-            "20": {"name": "", "page": 0, "description": ""},
-            "21": {"name": "", "page": 0, "description": ""},
-            "22": {"name": "", "page": 0, "description": ""},
-            "23": {"name": "", "page": 0, "description": ""},
-            "24": {"name": "", "page": 0, "description": ""},
-            "25": {"name": "", "page": 0, "description": ""},
-            "26": {"name": "", "page": 0, "description": ""},
-            "27": {"name": "", "page": 0, "description": ""},
-            "28": {"name": "", "page": 0, "description": ""},
-            "29": {"name": "", "page": 0, "description": ""},
-            "30": {"name": "", "page": 0, "description": ""},
-            "31": {"name": "", "page": 0, "description": ""},
-            "32": {"name": "", "page": 0, "description": ""},
-            "33": {"name": "", "page": 0, "description": ""},
-            "34": {"name": "", "page": 0, "description": ""},
-            "35": {"name": "", "page": 0, "description": ""},
-            "36": {"name": "", "page": 0, "description": ""},
-            "37": {"name": "", "page": 0, "description": ""},
-            "38": {"name": "", "page": 0, "description": ""},
-            "39": {"name": "", "page": 0, "description": ""},
-            "40": {"name": "", "page": 0, "description": ""},
-            "41": {"name": "", "page": 0, "description": ""},
-            "42": {"name": "", "page": 0, "description": ""},
-            "43": {"name": "", "page": 0, "description": ""},
-            "44": {"name": "", "page": 0, "description": ""},
-            "45": {"name": "", "page": 0, "description": ""},
-            "46": {"name": "", "page": 0, "description": ""},
-            "47": {"name": "", "page": 0, "description": ""},
-            "48": {"name": "", "page": 0, "description": ""},
-            "49": {"name": "", "page": 0, "description": ""},
-            "50": {"name": "", "page": 0, "description": ""},
-            "51": {"name": "", "page": 0, "description": ""},
-            "52": {"name": "", "page": 0, "description": ""},
-            "53": {"name": "", "page": 0, "description": ""},
-            "54": {"name": "", "page": 0, "description": ""},
-            "55": {"name": "", "page": 0, "description": ""},
-            "56": {"name": "", "page": 0, "description": ""},
-            "57": {"name": "", "page": 0, "description": ""},
-            "58": {"name": "", "page": 0, "description": ""},
-            "59": {"name": "", "page": 0, "description": ""},
-            "60": {"name": "", "page": 0, "description": ""},
-            "61": {"name": "", "page": 0, "description": ""},
-            "62": {"name": "", "page": 0, "description": ""},
-            "63": {"name": "", "page": 0, "description": ""},
-            "64": {"name": "", "page": 0, "description": ""},
-            "65": {"name": "", "page": 0, "description": ""},
-            "66": {"name": "", "page": 0, "description": ""},
-            "67": {"name": "", "page": 0, "description": ""},
-            "68": {"name": "", "page": 0, "description": ""},
-            "69": {"name": "", "page": 0, "description": ""},
-            "70": {"name": "", "page": 0, "description": ""},
-            "71": {"name": "", "page": 0, "description": ""},
-            "72": {"name": "", "page": 0, "description": ""},
-            "73": {"name": "", "page": 0, "description": ""},
-            "74": {"name": "", "page": 0, "description": ""},
-            "75": {"name": "", "page": 0, "description": ""},
-            "76": {"name": "", "page": 0, "description": ""},
-            "77": {"name": "", "page": 0, "description": ""},
-            "78": {"name": "", "page": 0, "description": ""},
-            "79": {"name": "", "page": 0, "description": ""},
-            "80": {"name": "", "page": 0, "description": ""},
-            "81": {"name": "", "page": 0, "description": ""},
-            "82": {"name": "", "page": 0, "description": ""},
-            "83": {"name": "", "page": 0, "description": ""},
-            "84": {"name": "", "page": 0, "description": ""},
-            "85": {"name": "", "page": 0, "description": ""},
-            "86": {"name": "", "page": 0, "description": ""},
-            "87": {"name": "", "page": 0, "description": ""},
-            "88": {"name": "", "page": 0, "description": ""},
-            "89": {"name": "", "page": 0, "description": ""},
-            "90": {"name": "", "page": 0, "description": ""},
-            "91": {"name": "", "page": 0, "description": ""},
-            "92": {"name": "", "page": 0, "description": ""},
-            "93": {"name": "", "page": 0, "description": ""},
-            "94": {"name": "", "page": 0, "description": ""},
-            "95": {"name": "", "page": 0, "description": ""},
-            "96": {"name": "", "page": 0, "description": ""},
-            "97": {"name": "", "page": 0, "description": ""},
-            "98": {"name": "", "page": 0, "description": ""},
-            "99": {"name": "", "page": 0, "description": ""},
-            "100": {"name": "", "page": 0, "description": ""}
+            "1-11": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "12-14": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "15": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "16": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "17": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "18": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "19": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "20": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "21": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "22": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "23": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "24": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "25": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "26": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "27": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "28": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "29": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "30": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "31": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "32": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "33": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "34": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "35": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "36": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "37": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "38": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "39": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "40": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "41": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "42": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "43": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "44": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "45": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "46": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "47": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "48": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "49": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "50": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "51": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "52": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "53": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "54": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "55": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "56": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "57": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "59": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "60": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "61": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "62": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "63": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "64": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "65": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "66": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "67": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "69": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "70": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "72": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "73": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "74": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "75": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "77": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "79": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "80": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "81": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "83": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "84": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "87": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "89": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "H": {
-            "1-10": {"name": "", "page": 0, "description": ""},
-            "11-12": {"name": "", "page": 0, "description": ""},
-            "13-14": {"name": "", "page": 0, "description": ""},
-            "15-16": {"name": "", "page": 0, "description": ""},
-            "17-18": {"name": "", "page": 0, "description": ""},
-            "19-20": {"name": "", "page": 0, "description": ""},
-            "21-22": {"name": "", "page": 0, "description": ""},
-            "23-24": {"name": "", "page": 0, "description": ""},
-            "25-26": {"name": "", "page": 0, "description": ""},
-            "27-28": {"name": "", "page": 0, "description": ""},
-            "29-30": {"name": "", "page": 0, "description": ""},
-            "31-32": {"name": "", "page": 0, "description": ""},
-            "33-34": {"name": "", "page": 0, "description": ""},
-            "35-36": {"name": "", "page": 0, "description": ""},
-            "37-38": {"name": "", "page": 0, "description": ""},
-            "39-40": {"name": "", "page": 0, "description": ""},
-            "41-42": {"name": "", "page": 0, "description": ""},
-            "43-44": {"name": "", "page": 0, "description": ""},
-            "45-46": {"name": "", "page": 0, "description": ""},
-            "47-48": {"name": "", "page": 0, "description": ""},
-            "49-50": {"name": "", "page": 0, "description": ""},
-            "51-52": {"name": "", "page": 0, "description": ""},
-            "53-54": {"name": "", "page": 0, "description": ""},
-            "55": {"name": "", "page": 0, "description": ""},
-            "56": {"name": "", "page": 0, "description": ""},
-            "57": {"name": "", "page": 0, "description": ""},
-            "58": {"name": "", "page": 0, "description": ""},
-            "59": {"name": "", "page": 0, "description": ""},
-            "60": {"name": "", "page": 0, "description": ""},
-            "61": {"name": "", "page": 0, "description": ""},
-            "62": {"name": "", "page": 0, "description": ""},
-            "63": {"name": "", "page": 0, "description": ""},
-            "64": {"name": "", "page": 0, "description": ""},
-            "65": {"name": "", "page": 0, "description": ""},
-            "66": {"name": "", "page": 0, "description": ""},
-            "67": {"name": "", "page": 0, "description": ""},
-            "68": {"name": "", "page": 0, "description": ""},
-            "69": {"name": "", "page": 0, "description": ""},
-            "70": {"name": "", "page": 0, "description": ""},
-            "71": {"name": "", "page": 0, "description": ""},
-            "72": {"name": "", "page": 0, "description": ""},
-            "73": {"name": "", "page": 0, "description": ""},
-            "74": {"name": "", "page": 0, "description": ""},
-            "75": {"name": "", "page": 0, "description": ""},
-            "76": {"name": "", "page": 0, "description": ""},
-            "78": {"name": "", "page": 0, "description": ""},
-            "79": {"name": "", "page": 0, "description": ""},
-            "80": {"name": "", "page": 0, "description": ""},
-            "81": {"name": "", "page": 0, "description": ""},
-            "82": {"name": "", "page": 0, "description": ""},
-            "83": {"name": "", "page": 0, "description": ""},
-            "84": {"name": "", "page": 0, "description": ""},
-            "85": {"name": "", "page": 0, "description": ""},
-            "86": {"name": "", "page": 0, "description": ""},
-            "87": {"name": "", "page": 0, "description": ""},
-            "88": {"name": "", "page": 0, "description": ""},
-            "89": {"name": "", "page": 0, "description": ""},
-            "90": {"name": "", "page": 0, "description": ""},
-            "91": {"name": "", "page": 0, "description": ""},
-            "92": {"name": "", "page": 0, "description": ""},
-            "93": {"name": "", "page": 0, "description": ""},
-            "94": {"name": "", "page": 0, "description": ""},
-            "95": {"name": "", "page": 0, "description": ""},
-            "96": {"name": "", "page": 0, "description": ""},
-            "97": {"name": "", "page": 0, "description": ""},
-            "98": {"name": "", "page": 0, "description": ""},
-            "99": {"name": "", "page": 0, "description": ""},
-            "100": {"name": "", "page": 0, "description": ""}
+            "1-10": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "11-12": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "13-14": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "15-16": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "17-18": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "19-20": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "21-22": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "23-24": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "25-26": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "27-28": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "29-30": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "31-32": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "33-34": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "35-36": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "37-38": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "39-40": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "41-42": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "43-44": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "45-46": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "47-48": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "49-50": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "51-52": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "53-54": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "55": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "56": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "57": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "59": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "60": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "61": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "62": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "63": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "64": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "65": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "66": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "67": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "69": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "70": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "71": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "72": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "73": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "74": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "75": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "79": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "80": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "81": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "83": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "84": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "87": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "89": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         },
         "I": {
-            "1-5": {"name": "", "page": 0, "description": ""},
-            "6-10": {"name": "", "page": 0, "description": ""},
-            "11-15": {"name": "", "page": 0, "description": ""},
-            "16-20": {"name": "", "page": 0, "description": ""},
-            "21-23": {"name": "", "page": 0, "description": ""},
-            "24-26": {"name": "", "page": 0, "description": ""},
-            "27-29": {"name": "", "page": 0, "description": ""},
-            "30-32": {"name": "", "page": 0, "description": ""},
-            "33-35": {"name": "", "page": 0, "description": ""},
-            "36-38": {"name": "", "page": 0, "description": ""},
-            "39-41": {"name": "", "page": 0, "description": ""},
-            "42-43": {"name": "", "page": 0, "description": ""},
-            "44-45": {"name": "", "page": 0, "description": ""},
-            "46-47": {"name": "", "page": 0, "description": ""},
-            "48-49": {"name": "", "page": 0, "description": ""},
-            "50-51": {"name": "", "page": 0, "description": ""},
-            "52-53": {"name": "", "page": 0, "description": ""},
-            "54-55": {"name": "", "page": 0, "description": ""},
-            "56-57": {"name": "", "page": 0, "description": ""},
-            "58-59": {"name": "", "page": 0, "description": ""},
-            "60-61": {"name": "", "page": 0, "description": ""},
-            "62-63": {"name": "", "page": 0, "description": ""},
-            "64-65": {"name": "", "page": 0, "description": ""},
-            "66-67": {"name": "", "page": 0, "description": ""},
-            "68-69": {"name": "", "page": 0, "description": ""},
-            "70-71": {"name": "", "page": 0, "description": ""},
-            "72-73": {"name": "", "page": 0, "description": ""},
-            "74-75": {"name": "", "page": 0, "description": ""},
-            "76": {"name": "", "page": 0, "description": ""},
-            "77": {"name": "", "page": 0, "description": ""},
-            "78": {"name": "", "page": 0, "description": ""},
-            "79": {"name": "", "page": 0, "description": ""},
-            "80": {"name": "", "page": 0, "description": ""},
-            "81": {"name": "", "page": 0, "description": ""},
-            "82": {"name": "", "page": 0, "description": ""},
-            "83": {"name": "", "page": 0, "description": ""},
-            "84": {"name": "", "page": 0, "description": ""},
-            "85": {"name": "", "page": 0, "description": ""},
-            "86": {"name": "", "page": 0, "description": ""},
-            "87": {"name": "", "page": 0, "description": ""},
-            "88": {"name": "", "page": 0, "description": ""},
-            "89": {"name": "", "page": 0, "description": ""},
-            "90": {"name": "", "page": 0, "description": ""},
-            "91": {"name": "", "page": 0, "description": ""},
-            "92": {"name": "", "page": 0, "description": ""},
-            "93": {"name": "", "page": 0, "description": ""},
-            "94": {"name": "", "page": 0, "description": ""},
-            "95": {"name": "", "page": 0, "description": ""},
-            "96": {"name": "", "page": 0, "description": ""},
-            "97": {"name": "", "page": 0, "description": ""},
-            "98": {"name": "", "page": 0, "description": ""},
-            "99": {"name": "", "page": 0, "description": ""},
-            "100": {"name": "", "page": 0, "description": ""}
+            "1-5": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "6-10": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "11-15": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "16-20": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "21-23": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "24-26": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "27-29": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "30-32": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "33-35": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "36-38": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "39-41": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "42-43": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "44-45": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "46-47": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "48-49": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "50-51": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "52-53": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "54-55": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "56-57": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "58-59": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "60-61": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "62-63": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "64-65": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "66-67": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "68-69": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "70-71": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "72-73": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "74-75": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "76": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "77": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "78": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "79": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "80": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "81": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "82": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "83": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "84": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "85": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "86": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "87": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "88": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "89": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "90": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "91": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "92": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "93": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "94": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "95": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "96": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "97": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "98": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "99": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            },
+            "100": {
+                "name": "", 
+                "page": 0, 
+                "rarity": "", 
+                "category": "", 
+                "description": ""
+            }
         }
     }
 }
