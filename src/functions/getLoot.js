@@ -146,7 +146,9 @@ export default function getLoot(lootInput)
         // <-------------------------------------------------- CR 5-10 --------------------------------------------------->
         } else if (lootInput.cr === "5-10") {
             diceToRoll = {cp: "2d6x100", sp: "2d6x1000", gp: "6d6x100", pp: "3d6x10"}
-
+            // REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== 
+            magicItems = determineMagicItems(diceRoller(1,4).total, "A");
+            // REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== REMOVE THIS <== 
         // <-------------------------------------------------- CR 11-16 -------------------------------------------------->
         } else if (lootInput.cr === "11-16") {
             diceToRoll = {gp: "4d6x1000", pp: "5d6x100"}
@@ -176,11 +178,17 @@ export default function getLoot(lootInput)
     return totals;
 }
 
-export function inRange(testNumber, lowNumber, highNumber) 
+export function inRange(testNumber, lowNumber, highNumber = null) 
 {
-    if (testNumber >= lowNumber && testNumber <= highNumber) {
-        return true;
+    if (highNumber === null) {
+        if (testNumber >= lowNumber) {
+            return true;
+        }
     } else {
-        return false;
+        if (testNumber >= lowNumber && testNumber <= highNumber) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
