@@ -132,7 +132,35 @@ const calculateCurrency = (lootInput) =>
 
 const determineGems = (number, value) =>
 {
-    return 'hi 1';
+    let result = {list: {}, totalNumber: number, totalValue: number*value};
+    let table;
+    
+    if (value === 10) {
+        table = lootTables.gems["10gp"];
+    } else if (value === 50) {
+        table = lootTables.gems["50gp"];
+    } else if (value === 100) {
+        table = lootTables.gems["100gp"];
+    } else if (value === 500) {
+        table = lootTables.gems["500gp"];
+    } else if (value === 1000) {
+        table = lootTables.gems["1000gp"];
+    } else if (value === 5000) {
+        table = lootTables.gems["5000gp"];
+    } else {
+        return {list: "something went wrong with determineGems", totalNumber: 0, totalValue: 0};
+    }
+
+    for (let i = 0; i < number; i++) {
+        const currentGem = table[Math.floor(Math.random()*table.length)];
+        if (`${currentGem}` in result.list) {
+            result.list[currentGem] += 1
+        } else {
+            result.list[currentGem] = 1
+        }
+    }
+    console.log(result);
+    return result;
 }
 
 const determineArtObjects = (number, value) =>
