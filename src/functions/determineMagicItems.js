@@ -1,4 +1,4 @@
-import * as lootTables from '../tables/lootTable';
+import * as magicItemsTable from '../tables/magicItemsTable';
 
 // functions
 import { inRange } from './getLoot';
@@ -7,7 +7,7 @@ import diceRoller from './diceRoller';
 export default function determineMagicItems(timesToRollOnTable, tableLetter)
 {
     const d100_results = [];
-    const table = lootTables.magicItems[tableLetter];
+    const table = magicItemsTable.items[tableLetter];
     let ranges = [];
     let solitaryNums = [];
     let loot = [];

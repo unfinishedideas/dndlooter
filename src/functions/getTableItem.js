@@ -8,7 +8,7 @@ export default function compareTableRange(testNumber, crRange, type)
     let table;
     if (type === "individualTreasure") {
         table = lootTables.individualTreasure.CR[crRange]; 
-    } else if (type==="hoard") {
+    } else if (type === "hoard") {
         table = lootTables.hoard.CR[crRange];
     } else {
         throw Error("compareTableRange: type must be 'individual' or 'hoard'!");
