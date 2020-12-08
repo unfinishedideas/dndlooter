@@ -72,5 +72,73 @@
                 }
             }
         }
+    },
+    "gems": {
+        "10gp": [
+            "Azurite",
+            "Banded agate",
+            "Blue quartz",
+            "Eye agate",
+            "Hematite",
+            "Lapis lazuli",
+            "Malachite",
+            "Moss agate",
+            "Obsidian",
+            "Rhodochrosite",
+            "Tiger eye",
+            "Turquoise"
+        ],
+        "50gp": [
+            "Bloodstone",
+            "Carnelian",
+            "Chalcedony",
+            "Chrysoprase",
+            "Citrine",
+            "Jasper",
+            "Moonstone",
+            "Onyx",
+            "Quartz",
+            "Sardonyz",
+            "Star rose Quartz",
+            "Zircon"
+        ],
+        "100gp": [
+            "Amber",
+            "Amethyst",
+            "Chrysoberyl",
+            "Coral",
+            "Garnet",
+            "Jade",
+            "Jet",
+            "Pearl",
+            "Spinel",
+            "Tourmaline"
+        ],
+        "500gp": [
+            "Alexandrite",
+            "Aquamarine",
+            "Black pearl",
+            "Blue spinel",
+            "Peridot",
+            "Topaz"
+        ],
+        "1000gp": [
+            "Black opal",
+            "Blue sapphire",
+            "Emerald",
+            "Fire opal",
+            "Opal",
+            "Star ruby",
+            "Star sapphire",
+            "Yellow sapphire"
+        ],
+        "5000gp": [
+            "Black sapphire",
+            "Diamond",
+            "Jacinth",
+            "Ruby"
+        ]
+
+        
     }
 }

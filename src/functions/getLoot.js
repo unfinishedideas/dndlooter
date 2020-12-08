@@ -65,6 +65,7 @@ const calculateCurrency = (lootInput) =>
         }
     // Hoard loot
     } else if (lootInput.type === 'hoard') {
+        let gems = [], artObjects = [], magicItems = [];
         // CR 0-4
         if (lootInput.cr === "0-4") {
             diceToRoll = {cp: "6d6x100", sp: "3d6x100", gp: "2d6x10"}
@@ -129,12 +130,12 @@ const calculateCurrency = (lootInput) =>
     return totals;
 }
 
-const determineGems = (order) =>
+const determineGems = (number, value) =>
 {
     return 'hi 1';
 }
 
-const determineArtObjects = (order) =>
+const determineArtObjects = (number, value) =>
 {
     return 'hi 2';
 }
