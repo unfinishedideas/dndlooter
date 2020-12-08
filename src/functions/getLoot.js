@@ -124,9 +124,9 @@ export default function getLoot(lootInput)
     return totals;
 }
 
-const determineGems = (number, value) =>
+const determineTreasure = (type, number, value) =>
 {
-    let result = {list: {}, totalNumber: number, totalValue: number*value};
+    let result = {type: type, list: {}, totalNumber: number, totalValue: number*value};
     let table;
     
     if (value === 10) {
@@ -141,29 +141,10 @@ const determineGems = (number, value) =>
         table = lootTables.gems["1000gp"];
     } else if (value === 5000) {
         table = lootTables.gems["5000gp"];
-    } else {
-        return {list: "bad value input: determineGems", totalNumber: 0, totalValue: 0};
-    }
-
-    for (let i = 0; i < number; i++) {
-        const currentGem = table[Math.floor(Math.random()*table.length)];
-        if (`${currentGem}` in result.list) {
-            result.list[currentGem] += 1
-        } else {
-            result.list[currentGem] = 1
-        }
-    }
-
-    return result;
-}
-
-const determineArtObjects = (number, value) =>
-{
-    let result = {list: {}, totalNumber: number, totalValue: number*value};
-    let table;
-    
-    if (value === 25) {
+    } else if (value === 25) {
         table = lootTables.art_objects["25gp"];
+    } else if (value === 75) {
+        table = lootTables.art_objects["75gp"];
     } else if (value === 250) {
         table = lootTables.art_objects["250gp"];
     } else if (value === 750) {
@@ -173,15 +154,15 @@ const determineArtObjects = (number, value) =>
     } else if (value === 7500) {
         table = lootTables.art_objects["7500gp"];
     } else {
-        return {list: "bad value input: determineArtObjects", totalNumber: 0, totalValue: 0};
+        return {list: "bad value input: determineTreasure", totalNumber: 0, totalValue: 0};
     }
 
     for (let i = 0; i < number; i++) {
-        const currentArtObject = table[Math.floor(Math.random()*table.length)];
-        if (`${currentArtObject}` in result.list) {
-            result.list[currentArtObject] += 1
+        const currentItem = table[Math.floor(Math.random()*table.length)];
+        if (`${currentItem}` in result.list) {
+            result.list[currentItem] += 1
         } else {
-            result.list[currentArtObject] = 1
+            result.list[currentItem] = 1
         }
     }
 
