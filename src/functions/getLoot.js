@@ -1,13 +1,7 @@
 import * as lootTables from '../tables/lootTable.json';
 import diceRoller from './diceRoller';
 
-export default function getLoot(lootInput) 
-{
-    const currencyResults = calculateCurrency(lootInput);
-    return currencyResults;
-}
-
-const calculateCurrency = (lootInput) =>
+export default function getLoot(lootInput)
 {
     const d100_result = diceRoller(1, 100, 0).total;
     let diceToRoll;
