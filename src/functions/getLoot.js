@@ -4,6 +4,7 @@ import * as lootTables from '../tables/lootTable.json';
 import diceRoller from './diceRoller';
 import determineTreasure from './determineTreasure';
 import determineMagicItems from './determineMagicItems';
+import getTableItem from './getTableItem';
 
 export default function getLoot(lootInput)
 {
@@ -11,63 +12,19 @@ export default function getLoot(lootInput)
     let diceToRoll;
     let totals = {};
 
-    // I apologize in advance for this terribleness - these walls of conditionals make my eyes bleed But I have yet to think of a better way to do it. -P
-    // <------------------------------------------------------------------------ Individual Loot ------------------------------------------------------------------------->
     if (lootInput.type === 'individual') {
-        // <--------------------------------------------------- CR 0-4 --------------------------------------------------->
         if (lootInput.cr === "0-4") {
-            if (inRange(d100_result, 0, 30)) {
-                diceToRoll = lootTables.individualTreasure.CR["0-4"]["1-30"]
-            } else if (inRange(d100_result, 31, 60)) {
-                diceToRoll = lootTables.individualTreasure.CR["0-4"]["31-60"]
-            } else if (inRange(d100_result, 61, 70)) {
-                diceToRoll = lootTables.individualTreasure.CR["0-4"]["61-70"]
-            } else if (inRange(d100_result, 71, 95)) {
-                diceToRoll = lootTables.individualTreasure.CR["0-4"]["71-95"]
-            } else if (d100_result >= 96) {
-                diceToRoll = lootTables.individualTreasure.CR["0-4"]["96-100"]
-            }
-            
-        // <-------------------------------------------------- CR 5-10 --------------------------------------------------->
+            diceToRoll = getTableItem(d100_result, "0-4", "individualTreasure");
         } else if (lootInput.cr === "5-10") {
-            if (inRange(d100_result, 0, 30)) {
-                diceToRoll = lootTables.individualTreasure.CR["5-10"]["1-30"]
-            } else if (inRange(d100_result, 31, 60)) {
-                diceToRoll = lootTables.individualTreasure.CR["5-10"]["31-60"]
-            } else if (inRange(d100_result, 61, 70)) {
-                diceToRoll = lootTables.individualTreasure.CR["5-10"]["61-70"]
-            } else if (inRange(d100_result,71, 95)) {
-                diceToRoll = lootTables.individualTreasure.CR["5-10"]["71-95"]
-            } else if (d100_result >= 96){
-                diceToRoll = lootTables.individualTreasure.CR["5-10"]["96-100"]
-            }
-
-        // <-------------------------------------------------- CR 11-16 -------------------------------------------------->
+            diceToRoll = getTableItem(d100_result, "5-10", "individualTreasure");
         } else if (lootInput.cr === "11-16") {
-            if (inRange(d100_result, 0, 20)) {
-                diceToRoll = lootTables.individualTreasure.CR["11-16"]["0-20"]
-            } else if (inRange(d100_result, 21, 35)) {
-                diceToRoll = lootTables.individualTreasure.CR["11-16"]["21-35"]
-            } else if (inRange(d100_result, 36, 75)) {
-                diceToRoll = lootTables.individualTreasure.CR["11-16"]["36-75"]
-            } else if (d100_result >= 76) {
-                diceToRoll = lootTables.individualTreasure.CR["11-16"]["76-100"]
-            }   
-        
-        // <--------------------------------------------------- CR 17+ --------------------------------------------------->
+            diceToRoll = getTableItem(d100_result, "11-16", "individualTreasure");        
         } else if (lootInput.cr === "17+") {
-            if (inRange(d100_result, 0, 15)) {
-                diceToRoll = lootTables.individualTreasure.CR["17+"]["0-15"]
-            } else if (inRange(d100_result, 16, 55)) {
-                diceToRoll = lootTables.individualTreasure.CR["17+"]["16-55"]
-            } else if (d100_result >= 56){
-                diceToRoll = lootTables.individualTreasure.CR["17+"]["56-100"]
-            }
+            diceToRoll = getTableItem(d100_result, "17+", "individualTreasure");
         } else {
             console.error('invalid CR on individual tables');
         }
 
-    // <--------------------------------------------------------------------------- Hoard loot --------------------------------------------------------------------------->
     } else if (lootInput.type === 'hoard') {
         let gems, artObjects, magicItems;
 
@@ -162,7 +119,7 @@ export default function getLoot(lootInput)
         }
         totals.treasureObjects = {gems: gems, artObjects: artObjects, magicItems: magicItems}
     }
-
+    console.log(diceToRoll)
     // Roll the amount of each type of coin
     for (const [type, value] of Object.entries(diceToRoll)) {
         let diceSplit = value.split('d');

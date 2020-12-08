@@ -38,12 +38,12 @@ export default function determineMagicItems(timesToRollOnTable, tableLetter)
             if(Array.isArray(currentRange)) {
                 if (inRange(result, currentRange[0], currentRange[1])) {
                     let key = `${currentRange[0]}-${currentRange[1]}`;
-                    loot.push(lootTables.magicItems[tableLetter][key])
+                    loot.push(table[key])
                 }
             } else {
                 if (inRange(result, currentRange)) {
                     let key = `${currentRange}`;
-                    loot.push(lootTables.magicItems[tableLetter][key])
+                    loot.push(table[key])
                 }
             }
         })
