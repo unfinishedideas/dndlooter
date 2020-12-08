@@ -59,42 +59,77 @@ export default function getLoot(lootInput)
         }
     // Hoard loot
     } else if (lootInput.type === 'hoard') {
-        let gems = [], artObjects = [], magicItems = [];
+        let gems, artObjects, magicItems;
         // CR 0-4
         if (lootInput.cr === "0-4") {
             diceToRoll = {cp: "6d6x100", sp: "3d6x100", gp: "2d6x10"}
             if (d100_result >= 7 && d100_result <= 16) {
-
+                gems = determineTreasure(diceRoller(2,6).total, 10, 'gems');
             } else if (d100_result >= 17 && d100_result <= 26) {
-                
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
             } else if (d100_result >= 27 && d100_result <= 36) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
             } else if (d100_result >= 37 && d100_result <= 44) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 10, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,6).total, "A"
+                );
             } else if (d100_result >= 45 && d100_result <= 52) {
-            
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
+                magicItems = determineMagicItems(
+                    diceRoller(1,6).total, "A"
+                );
             } else if (d100_result >= 53 && d100_result <= 60) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,6).total, "A"
+                );
             } else if (d100_result >= 61 && d100_result <= 65) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 10, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "B"
+                );
             } else if (d100_result >= 66 && d100_result <= 70) {
-            
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "B"
+                );
             } else if (d100_result >= 71 && d100_result <= 75) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "B"
+                );
             } else if (d100_result >= 76 && d100_result <= 78) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 10, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "C"
+                );
             } else if (d100_result >= 79 && d100_result <= 80) {
-            
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "C"
+                );
             } else if (d100_result >= 81 && d100_result <= 85) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "C"
+                );
             } else if (d100_result >= 86 && d100_result <= 92) {
-            
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "F"
+                );
             } else if (d100_result >= 93 && d100_result <= 97) {
-            
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
+                magicItems = determineMagicItems(
+                    diceRoller(1,4).total, "F"
+                );
             } else if (d100_result >= 98 && d100_result <= 99) {
-            
+                artObjects = determineTreasure(diceRoller(2,4).total, 25, 'art_objects');
+                magicItems = determineMagicItems(1, "G");
             } else if (d100_result === 100) {
-
+                gems = determineTreasure(diceRoller(2,6).total, 50, 'gems');
+                magicItems = determineMagicItems(1, "G");
             }
         // CR 5-10
         } else if (lootInput.cr === "5-10") {
@@ -108,6 +143,7 @@ export default function getLoot(lootInput)
         } else {
             console.error('invalid CR on individual tables');
         }
+        totals.treasureObjects = {gems: gems, artObjects: artObjects, magicItems: magicItems}
     }
 
     // Roll the amount of each type of coin
@@ -124,9 +160,9 @@ export default function getLoot(lootInput)
     return totals;
 }
 
-const determineTreasure = (type, number, value) =>
+const determineTreasure = (number, value, type) =>
 {
-    let result = {type: type, list: {}, totalNumber: number, totalValue: number*value};
+    let result = {totalNumber: number, totalValue: number*value, list: {}};
     let table;
     
     if (type === "gems") {
@@ -168,16 +204,16 @@ const determineTreasure = (type, number, value) =>
     for (let i = 0; i < number; i++) {
         const currentItem = table[Math.floor(Math.random()*table.length)];
         if (`${currentItem}` in result.list) {
-            result.list[currentItem] += 1
+            result.list[currentItem] += 1;
         } else {
-            result.list[currentItem] = 1
+            result.list[currentItem] = 1;
         }
     }
 
     return result;
 }
 
-const determineMagicItems = (order) => 
+const determineMagicItems = (timesToRollOnTable, tableLetter) => 
 {
     return 'hi 3';
 }
