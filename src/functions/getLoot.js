@@ -12,7 +12,6 @@ export default function getLoot(lootInput)
 
     if (lootInput.type === 'individual') {
         if (lootInput.cr === "0-4") {
-            determineMagicItems(3, "A");
             diceToRoll = getTableItem(d100_result, "0-4", "individualTreasure");
         } else if (lootInput.cr === "5-10") {
             diceToRoll = getTableItem(d100_result, "5-10", "individualTreasure");

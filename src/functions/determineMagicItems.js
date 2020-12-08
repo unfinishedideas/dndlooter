@@ -49,7 +49,5 @@ export default function determineMagicItems(timesToRollOnTable, tableLetter)
         })
     })
 
-    console.log(loot);
-
     return loot;
 }
