@@ -67,16 +67,49 @@ const calculateCurrency = (lootInput) =>
     } else if (lootInput.type === 'hoard') {
         // CR 0-4
         if (lootInput.cr === "0-4") {
-         
+            diceToRoll = {cp: "6d6x100", sp: "3d6x100", gp: "2d6x10"}
+            if (d100_result >= 7 && d100_result <= 16) {
+
+            } else if (d100_result >= 17 && d100_result <= 26) {
+                
+            } else if (d100_result >= 27 && d100_result <= 36) {
+            
+            } else if (d100_result >= 37 && d100_result <= 44) {
+            
+            } else if (d100_result >= 45 && d100_result <= 52) {
+            
+            } else if (d100_result >= 53 && d100_result <= 60) {
+            
+            } else if (d100_result >= 61 && d100_result <= 65) {
+            
+            } else if (d100_result >= 66 && d100_result <= 70) {
+            
+            } else if (d100_result >= 71 && d100_result <= 75) {
+            
+            } else if (d100_result >= 76 && d100_result <= 78) {
+            
+            } else if (d100_result >= 79 && d100_result <= 80) {
+            
+            } else if (d100_result >= 81 && d100_result <= 85) {
+            
+            } else if (d100_result >= 86 && d100_result <= 92) {
+            
+            } else if (d100_result >= 93 && d100_result <= 97) {
+            
+            } else if (d100_result >= 98 && d100_result <= 99) {
+            
+            } else if (d100_result === 100) {
+
+            }
         // CR 5-10
         } else if (lootInput.cr === "5-10") {
-          
+            diceToRoll = {cp: "2d6x100", sp: "2d6x1000", gp: "6d6x100", pp: "3d6x10"}
         // CR 11-16
         } else if (lootInput.cr === "11-16") {
-         
+            diceToRoll = {gp: "4d6x1000", pp: "5d6x100"}
         // CR 17+
         } else if (lootInput.cr === "17+") {
-        
+            diceToRoll = {gp: "12d6x1000", pp: "8d6x1000"}
         } else {
             console.error('invalid CR on individual tables');
         }
@@ -96,7 +129,17 @@ const calculateCurrency = (lootInput) =>
     return totals;
 }
 
+const determineGems = (order) =>
+{
+    return 'hi 1';
+}
+
+const determineArtObjects = (order) =>
+{
+    return 'hi 2';
+}
+
 const determineMagicItems = (order) => 
 {
-    return 'hi'
+    return 'hi 3';
 }
